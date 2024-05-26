@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+:root {
+    --nutmeg: hsl(14, 45%, 36%);
+    --dark-raspberry: hsl(332, 51%, 32%);
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wengebrown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+}
+
+body {
+    background-color: var(--eggshell);
+}
+.recipe-body {
+    background-color: var(--white);
+}
+
+h1 {
+    font-weight: 700;
+    color: var(--dark-charcoal);
+    font-family: 'Young-Serif', serif;
+}
+
+h2 {
+    color: var(--nutmeg);
+}
+
+p {
+    font-family: 'Young Serif', serif;
+}
+
+
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 2px solid #ff4500;
+}
+
+.mini-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    border: 2px solid #2f00ff;
+
+}
+
+.nutrition-info {
+    flex: 1;
+    text-align: left;
+}
