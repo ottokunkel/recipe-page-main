@@ -48,13 +48,29 @@ body {
     gap: 32px;
 }
 
+.food-title-description {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    gap: 24px;
+}
+
+.preparation-time {
+    background-color: var(--rose-white);
+    border-radius: 12px;
+    display: grid;
+    text-align: left;
+    padding: 28px;
+    gap: 16px;
+}
 
 
 
 h1 {
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 600;
     color: var(--dark-charcoal);
-    font-family: 'Young-Serif', serif;
+    font-family: 'Young-Serif';
 }
 
 h2 {
@@ -62,6 +78,14 @@ h2 {
     line-height: 100%;
     font-size: 28px;
     margin-bottom: 24px;
+}
+
+h3{
+    font-family: 'Outfit';
+    color: var(--dark-raspberry);
+    font-size: 20px;
+    line-height: 100%;
+
 }
 
 p {
@@ -77,11 +101,19 @@ p {
 }
 
 .nutrition-container p{
-    color: var(--wengebrown);
     font-family: 'Outfit';
 }
 
+.bottom-padding-24 {
+    padding-bottom: 24px;
+}
+
 .ingredients-list {
+    font-size: 12px;
+}
+
+.preparation-time li {
+    padding-left: 8px;
     font-size: 12px;
 }
 
@@ -111,16 +143,21 @@ li {
 .flex-container {
     display: flex;
     flex-direction: column;
+    gap: 12px;
     flex: 1;
 }
 
 .mini-container {
     display: flex;
     flex-direction: row;
+    gap: 16px;
     flex: 1;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .nutrition-desc {
+    color: var(--wengebrown);
     flex: 1;
     text-align: left;
 }
@@ -130,4 +167,8 @@ li {
     font-weight: bold;
     text-align: left;
     flex: 1;
+}
+
+.attribution {
+    padding-top: 15px;
 }
